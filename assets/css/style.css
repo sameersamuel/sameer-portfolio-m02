@@ -1,0 +1,102 @@
+:root {
+ --xdark: #2C3333;
+ --dark: #395B64;
+ --light: #A5C9CA;
+ --xlight: #E7F6F2;
+ --xxlight: #ffffff;
+}
+
+body {
+    margin: 0% 5% 5% 5%;
+    padding: 0% 5% 5% 5%;
+    color: var(--xlight);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:var(--xdark);
+}
+
+/* FOR ALL LINKS ON PAGE */
+a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--xxlight);
+}
+   
+header {
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #395B64;
+}
+
+header h1 {
+    background-color: var(--xlight);
+    color: var(--xdark);
+    font-size: 2.45rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 5px 10px;
+    font-size: 1.5rem;
+}
+
+#hero {
+    margin: 0%;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    min-height: 5vh;
+}
+    
+#title {
+    font-size: 1.5rem;
+    margin: 10%;
+}
+    
+main {  
+    margin: 10%;
+}
+
+.section-titles {
+    padding: 2% 0%;
+    font-size: 1.17rem;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+
+ .albums {
+    margin: 1.5rem;
+} 
+
+address a {
+    margin: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width: 800px) {
+    address a {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7rem;
+}
